@@ -1,0 +1,18 @@
+{
+  "name": "♥️MOEED MD PAIR♥️",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://files.catbox.moe/dj2npg.png",
+  "repository": "https://github.com/moeedcontact-a11y",
+  "keywords": ["@Moeed-MD"],
+  "success_url": "/", 
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ],
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "🔰 BY || MOEED-MD OFFICIAL 🔰",
+      "required": false 
+    }
+  }
+}
